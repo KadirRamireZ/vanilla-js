@@ -1,12 +1,13 @@
 //Ejercicio01
+
 function clonarArreglo(arregloInicial) {
   return [...arregloInicial];
 }
 const arregloInicial = [1, 2, 3, 4, 5];
 const arregloClonado = clonarArreglo(arregloInicial);
 
-console.log(arregloClonado); 
-console.log(arregloInicial === arregloClonado); 
+console.log(arregloClonado);
+console.log(arregloInicial === arregloClonado);
 
 //Ejercicio02
 
@@ -16,8 +17,8 @@ function clonarObjeto(objetoInicial) {
 const objetoInicial = { nombre: "John", edad: 30, ciudad: "Nueva York" };
 const objetoClonado = clonarObjeto(objetoInicial);
 
-console.log(objetoClonado); 
-console.log(objetoInicial === objetoClonado); 
+console.log(objetoClonado);
+console.log(objetoInicial === objetoClonado);
 
 //Ejercicio03
 
