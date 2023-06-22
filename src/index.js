@@ -30,3 +30,55 @@ function obtenerListaUsuarios() {
 function usuarios() {
   return new Promise(obtenerListaUsuarios);
 }
+
+async function obtenerUsuarios() {
+  try {
+    const response = await fetch("http://localhost:3000/users");
+    const data = await response.json();
+    console.log("Lista de usuarios:", data);
+  } catch (error) {
+    console.error("Error al obtener la lista de usuarios:", error);
+  }
+}
+
+obtenerUsuarios();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let textosIngresados = [];
+
+// function agregarTexto(texto) {
+//   if (textosIngresados.includes(texto)) {
+//     console.log("Este texto ya ha sido ingresado previamente.");
+//   } 
+// }
+
+
+
+//   agregarTexto(textoIngresado);
+
+
