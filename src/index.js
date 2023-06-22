@@ -5,6 +5,7 @@ function calcular(operacion, numero1, numero2) {
   if (operacion === "sumar") {
     resultado = calculadora.sumar(numero1, numero2);
   }
+
   console.log(resultado);
   return resultado;
 }
