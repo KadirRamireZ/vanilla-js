@@ -20,11 +20,8 @@ export function filtrarNumerosPares(lista) {
   return lista1;
 }
 
-
 export function filtrarNumerosQuintos(lista) {
   let lista2 = lista.filter((numero) => numero % 5 === 0);
   console.log(lista2);
   return lista2;
 }
-
-
