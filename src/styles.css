@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: rgb(129, 128, 125);
+}
+
+#Contenedor {
+  color: #50ff25;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#hora {
+  font-family: "Courier New", monospace;
+  font-size: 90px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#borde {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3d3d3d;
+  box-shadow: 10px 10px 20px;
+  border: 8px solid rgb(115, 228, 62);
+}
+
+#fechaActual {
+  font-size: 40px;
+  font-family: "Courier New", monospace;
+}
